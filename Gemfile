@@ -18,6 +18,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'profigure'
+gem 'mongo'
 # Use unicorn as the web server
 # gem 'unicorn'
 
