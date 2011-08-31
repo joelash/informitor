@@ -1,0 +1,2 @@
+module InformitorHelper
+end

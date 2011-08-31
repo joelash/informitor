@@ -5,5 +5,5 @@ MONGO = if mongo_uri.present?
   conn = Mongo::Connection.from_uri mongo_uri
   conn.db(uri.path.gsub(/^\//, ''))
 else
-  conn = Mongo::Connection.new.db CONFIG.mongo.db
+  Mongo::Connection.new.db CONFIG.mongo.db
 end
